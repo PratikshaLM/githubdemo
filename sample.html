@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.cont{
+  position: relative;
+  float: left;
+  width: 500px;
+  border-radius: 300%;
+}
+
+
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  border-radius: 1000px;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 30px;
+}
+
+.about-section {
+  padding: 23px;
+  text-align:left;
+  background-color: #4c044e;
+  color: white;
+}
+
+.container {
+  padding: 0 5px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.para{
+  font-size: medium;
+  font-style: italic;
+  text-align: center;
+}
+
+.foll
+</style>
+</head>
+<body>
+
+  <div class="cont">
+    <img src="img/logo.jpg" alt="Ankush" style="width: 30%;">
+  </div>
+
+<div class="about-section">
+  <h1>About BYS</h1>
+  <p>Our proposal is to design an online platform for customers and the shop owners of salons and parlors, to allocate a free time slot of salons owners to the customers through online chair booking system to solve this problem.
+
+    </p>
+  <!-- <p>Our solution will benefit the customer in the following way:
+Build a platform for customers and shop owners and will provide a middle platform between both to communicate and book the chairs in salons or parlors.
+</p> -->
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      
+      <img src="img/Ankush.jpg" alt="Ankush" style="width: 60%;">
+      <div class="container">
+        <h2>Ankush Patil</h2>
+        <p class="title">CEO & Founder</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        <p>arpatil@mitaoe.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Ashwini.jpg" alt="Ashwini" style="width:40%">
+      <div class="container">
+        <h2>Ashwini Sabale</h2>
+        <p class="title">CMO</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        <p>assabale@mitaoe.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/Vaibhav.jpg" alt="Vaibhav" style="width:40%">
+      <div class="container">
+        <h2>Vaibhav Patil</h2>
+        <p class="title">CTO</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        <p>vnpatil@mitaoe.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/Pratiksha (2).jpg" alt="Pratiksha" style="width:40%">
+      <div class="container">
+        <h2>Pratiksha Murade</h2>
+        <p class="title">CFO</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        <p>plmurade@mitaoe.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="para">Follow us on</p>
+<a href="instagram.com"></a>
+
+<a class="follow" href="www.instagram.com">
+  <img border="0" alt="W3Schools" src="img/insta.jpg" width="100" height="100">
+  </a>
+
+
+</body>
+</html>
